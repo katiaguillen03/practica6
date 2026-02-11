@@ -1,0 +1,48 @@
+/* Práctica 7: Introducción a CSS */
+/* Archivo: style.css */
+
+/* Paso 5: Configuración general del sitio */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Paso 6: Quitar puntos de viñeta de la lista */
+ul {
+    list-style: none; /*estilos de las listas*/
+}
+
+/* Paso 7: Formato para las opciones del menú (etiquetas LI dentro de UL) */
+ul li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Tipo de letra*/
+    font-size: 22px; /*tamaño de letra*/
+    height: 60px; /*Altura de cada opción de la lista*/
+}
+
+/* Paso 8: Configuración de los hipervínculos del menú */
+ul li a {
+    height: 60px; /*Altura*/
+    background-color: #333; /* color de fondo*/
+    display: block;
+    border-left: 10px solid rgb(8, 96, 179);
+    border-right: 5px solid rgb(144, 253, 111);
+    padding-left: 15px; /*separación izquierda del texto */
+    text-decoration: none;
+    color: #bfef1f;
+}
+
+/* Paso 9: Animación hover para los botones del menú */
+ul li a:hover {
+    margin-left: 10px; /*separacion del lado izquierdo*/
+    color: #b9b7b7; /*color de letra*/
+    background-color: #0b1741; /*color de fondo*/
+    box-shadow: 10px 10px 20px #000; /*sombra*/
+    transform: rotate(4deg); /*movimiento de roación*/
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+
+/* Paso 10: Alineación vertical del contenido de las celdas */
+td {
+    vertical-align: top;
+}
